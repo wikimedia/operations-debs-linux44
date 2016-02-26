@@ -1,5 +1,5 @@
 [base]
-compiler: gcc-5
+compiler: gcc-4.9
 featuresets:
  none
  rt
