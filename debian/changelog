@@ -1,3 +1,16 @@
+linux (4.4.2-3+wmf1) jessie-wikimedia; urgency=medium
+
+  * Backport for jessie:
+    - Relax the build dependency on kernel-wedge
+    - Use gcc 4.9
+    - Drop the <!stage1> annotations, dpkg from jessie chokes on them
+      and they are only needed for bootstrapping new archs
+  * Disable rt flavour, not needed
+  * Update to 4.4.3:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.3
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 29 Feb 2016 14:33:00 +0100
+
 linux (4.4.2-3) unstable; urgency=medium
 
   * [x86] efi-bgrt: Fix kernel panic when mapping BGRT data (Closes: #815125)
