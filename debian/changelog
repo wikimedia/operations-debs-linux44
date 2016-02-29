@@ -37,6 +37,10 @@ linux (4.4.2-1) unstable; urgency=medium
   * New upstream stable update:
     https://www.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.2
     - ALSA: usb-audio: avoid freeing umidi object twice (CVE-2016-2384)
+    - CVE-2016-2782 [cac9b50b0d75a1d50d6c056ff65c005f3224c8e0]
+    - CVE-2016-2085 [613317bd212c585c20796c10afe5daaa95d4b0a1]
+    - CVE-2016-0723 [5c17c861a357e9458001f021a7afa7aab9937439]
+    - CVE-2015-7566 [cb3232138e37129e88240a98a1d2aba2187ff57c]
 
   [ Ben Hutchings ]
   * Set ABI to 1
@@ -88,7 +92,16 @@ linux (4.4.2-1) unstable; urgency=medium
 linux (4.4.1-1~exp1) experimental; urgency=medium
 
   * New upstream stable update:
-    https://www.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.1
+    https://www.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.1:
+    CVE-2016-2548 [b5a663aa426f4884c71cd8580adae73f33570f0d]
+    CVE-2016-2547 [b5a663aa426f4884c71cd8580adae73f33570f0d]
+    CVE-2016-2546 [af368027a49a751d6ff4ee9e3f9961f35bb4fede]
+    CVE-2016-2545 [ee8413b01045c74340aa13ad5bdf905de32be736]
+    CVE-2016-2544 [3567eb6af614dac436c4b16a8d426f9faed639b3]
+    CVE-2016-2543 [030e2c78d3a91dd0d27fef37e91950dde333eba1]
+    CVE-2016-2069 [71b3c126e61177eb693423f2e18a1914205b165e,
+                   4eaffdd5a5fe6ff9f95e1ab4de1ac904d5e0fa8b]
+    CVE-2016-0728 [23567fd052a9abb6d67fe8e7a9ccdd9800a540f2]
 
   [ Ricardo Salveti ]
   * Extending ARM64 support:
