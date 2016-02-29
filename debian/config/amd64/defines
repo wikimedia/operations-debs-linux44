@@ -2,7 +2,6 @@
 compiler: gcc-4.9
 featuresets:
  none
- rt
 kernel-arch: x86
 
 [build]
