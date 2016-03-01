@@ -9,6 +9,9 @@ linux (4.4.2-3+wmf1) jessie-wikimedia; urgency=medium
   * Update to 4.4.3:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.3
   * Amend older changelog entries with security issues fixed in 4.4.2 and 4.4.1
+  * Drop bugfix/all/ptrace-being-capable-wrt-a-process-requires-mapped-uids-gids.patch,
+    the patch hasn't been merged into Linus git yet. Wait for it to be
+    merged upstream and coming in through the stable kernels.
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 29 Feb 2016 14:33:00 +0100
 
