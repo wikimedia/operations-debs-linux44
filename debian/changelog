@@ -12,6 +12,11 @@ linux (4.4.2-3+wmf1) jessie-wikimedia; urgency=medium
   * Drop bugfix/all/ptrace-being-capable-wrt-a-process-requires-mapped-uids-gids.patch,
     the patch hasn't been merged into Linus git yet. Wait for it to be
     merged upstream and coming in through the stable kernels.
+  * Don't apply aufs patches. These are not included in the main kernel image
+    (only for external live images) and not part of Linux mainline. Keeping these
+    patches and having them patch all kinds of kernel core code will only cause
+    problems in the long run when later stable kernels are applied (which are
+    exclusively based on code which is also in Linux master)
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 29 Feb 2016 14:33:00 +0100
 
