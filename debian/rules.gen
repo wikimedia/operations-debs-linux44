@@ -292,7 +292,7 @@ binary-arch_x32_real::
 	$(MAKE) -f debian/rules.real binary-arch-arch ABINAME='4.4.0-1' ARCH='x32' DO_HEADERS_ALL='False' KERNEL_ARCH='x86' SOURCEVERSION='4.4.2-3+wmf1' UPSTREAMVERSION='4.4' VERSION='4.4'
 binary-indep:: setup
 binary-indep::
-	$(MAKE) -f debian/rules.real binary-indep ABINAME='4.4.0-1' ALL_FEATURESETS='none rt' ALL_TRIPLETS='alpha_none_alpha-generic alpha_none_alpha-smp amd64_none_amd64 arm64_none_arm64 armel_none_marvell armel_none_versatile armhf_none_armmp armhf_none_armmp-lpae hppa_none_parisc hppa_none_parisc64-smp i386_none_686 i386_none_686-pae m68k_none_m68k mips_none_4kc-malta mips_none_5kc-malta mips_none_octeon mipsel_none_4kc-malta mipsel_none_5kc-malta mipsel_none_loongson-2e mipsel_none_loongson-2f mipsel_none_loongson-3 mips64_none_5kc-malta mips64_none_octeon mips64el_none_5kc-malta mips64el_none_loongson-3 mips64el_none_octeon powerpc_none_powerpc powerpc_none_powerpc-smp powerpc_none_powerpc64 powerpcspe_none_powerpcspe ppc64_none_powerpc64 ppc64el_none_powerpc64le s390x_none_s390x sh4_none_sh7751r sh4_none_sh7785lcr sparc64_none_sparc64 sparc64_none_sparc64-smp' SOURCEVERSION='4.4.2-3+wmf1' UPSTREAMVERSION='4.4' VERSION='4.4'
+	$(MAKE) -f debian/rules.real binary-indep ABINAME='4.4.0-1' ALL_FEATURESETS='none' ALL_TRIPLETS='alpha_none_alpha-generic alpha_none_alpha-smp amd64_none_amd64 arm64_none_arm64 armel_none_marvell armel_none_versatile armhf_none_armmp armhf_none_armmp-lpae hppa_none_parisc hppa_none_parisc64-smp i386_none_686 i386_none_686-pae m68k_none_m68k mips_none_4kc-malta mips_none_5kc-malta mips_none_octeon mipsel_none_4kc-malta mipsel_none_5kc-malta mipsel_none_loongson-2e mipsel_none_loongson-2f mipsel_none_loongson-3 mips64_none_5kc-malta mips64_none_octeon mips64el_none_5kc-malta mips64el_none_loongson-3 mips64el_none_octeon powerpc_none_powerpc powerpc_none_powerpc-smp powerpc_none_powerpc64 powerpcspe_none_powerpcspe ppc64_none_powerpc64 ppc64el_none_powerpc64le s390x_none_s390x sh4_none_sh7751r sh4_none_sh7785lcr sparc64_none_sparc64 sparc64_none_sparc64-smp' SOURCEVERSION='4.4.2-3+wmf1' UPSTREAMVERSION='4.4' VERSION='4.4'
 binary-libc-dev_alpha:: source_none_real
 binary-libc-dev_alpha::
 	$(MAKE) -f debian/rules.real install-libc-dev_alpha ABINAME='4.4.0-1' ARCH='alpha' KERNEL_ARCH='alpha' SOURCEVERSION='4.4.2-3+wmf1' UPSTREAMVERSION='4.4' VERSION='4.4'
@@ -559,7 +559,7 @@ build-arch_sparc_real:
 build-arch_x32: build-arch_x32_real
 build-arch_x32_real:
 build-indep::
-	$(MAKE) -f debian/rules.real build-indep ABINAME='4.4.0-1' ALL_FEATURESETS='none rt' ALL_TRIPLETS='alpha_none_alpha-generic alpha_none_alpha-smp amd64_none_amd64 arm64_none_arm64 armel_none_marvell armel_none_versatile armhf_none_armmp armhf_none_armmp-lpae hppa_none_parisc hppa_none_parisc64-smp i386_none_686 i386_none_686-pae m68k_none_m68k mips_none_4kc-malta mips_none_5kc-malta mips_none_octeon mipsel_none_4kc-malta mipsel_none_5kc-malta mipsel_none_loongson-2e mipsel_none_loongson-2f mipsel_none_loongson-3 mips64_none_5kc-malta mips64_none_octeon mips64el_none_5kc-malta mips64el_none_loongson-3 mips64el_none_octeon powerpc_none_powerpc powerpc_none_powerpc-smp powerpc_none_powerpc64 powerpcspe_none_powerpcspe ppc64_none_powerpc64 ppc64el_none_powerpc64le s390x_none_s390x sh4_none_sh7751r sh4_none_sh7785lcr sparc64_none_sparc64 sparc64_none_sparc64-smp' SOURCEVERSION='4.4.2-3+wmf1' UPSTREAMVERSION='4.4' VERSION='4.4'
+	$(MAKE) -f debian/rules.real build-indep ABINAME='4.4.0-1' ALL_FEATURESETS='none' ALL_TRIPLETS='alpha_none_alpha-generic alpha_none_alpha-smp amd64_none_amd64 arm64_none_arm64 armel_none_marvell armel_none_versatile armhf_none_armmp armhf_none_armmp-lpae hppa_none_parisc hppa_none_parisc64-smp i386_none_686 i386_none_686-pae m68k_none_m68k mips_none_4kc-malta mips_none_5kc-malta mips_none_octeon mipsel_none_4kc-malta mipsel_none_5kc-malta mipsel_none_loongson-2e mipsel_none_loongson-2f mipsel_none_loongson-3 mips64_none_5kc-malta mips64_none_octeon mips64el_none_5kc-malta mips64el_none_loongson-3 mips64el_none_octeon powerpc_none_powerpc powerpc_none_powerpc-smp powerpc_none_powerpc64 powerpcspe_none_powerpcspe ppc64_none_powerpc64 ppc64el_none_powerpc64le s390x_none_s390x sh4_none_sh7751r sh4_none_sh7785lcr sparc64_none_sparc64 sparc64_none_sparc64-smp' SOURCEVERSION='4.4.2-3+wmf1' UPSTREAMVERSION='4.4' VERSION='4.4'
 setup: setup_alpha setup_amd64 setup_arm64 setup_armel setup_armhf setup_hppa setup_i386 setup_m68k setup_mips setup_mips64 setup_mips64el setup_mipsel setup_or1k setup_powerpc setup_powerpcspe setup_ppc64 setup_ppc64el setup_s390 setup_s390x setup_sh4 setup_sparc setup_sparc64 setup_x32
 setup_alpha: setup_alpha_none setup_alpha_real
 setup_alpha_none: setup_alpha_none_alpha-generic setup_alpha_none_alpha-smp setup_alpha_none_real
@@ -756,10 +756,7 @@ setup_sparc64_real:
 setup_sparc_real:
 setup_x32: setup_x32_real
 setup_x32_real:
-source: source_none source_rt
+source: source_none
 source_none: source_none_real
 source_none_real::
 	$(MAKE) -f debian/rules.real source-featureset ABINAME='4.4.0-1' FEATURESET='none' SOURCEVERSION='4.4.2-3+wmf1' UPSTREAMVERSION='4.4' VERSION='4.4'
-source_rt: source_rt_real
-source_rt_real::
-	$(MAKE) -f debian/rules.real source-featureset ABINAME='4.4.0-1' FEATURESET='rt' SOURCEVERSION='4.4.2-3+wmf1' UPSTREAMVERSION='4.4' VERSION='4.4'
