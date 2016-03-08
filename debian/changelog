@@ -8,6 +8,9 @@ linux (4.4.2-3+wmf1) jessie-wikimedia; urgency=medium
   * Disable rt flavour, not needed
   * Update to 4.4.4:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.4
+    - CVE-2016-2550 [415e3d3e90ce9e18727e8843ae343eda5a58fad6]
+    - CVE-2015-8812 [67f1aee6f45059fd6b0f5b0ecb2c97ad0451f6b3]
+    - CVE-2016-2383 [a1b14d27ed0965838350f1377ff97c93ee383492]
     Remove these patches, which are all merged in 4.4.4:
      - af_unix-guard-against-other-sk-in-unix_dgram_sendmsg.patch
      - af_unix-don-t-set-err-in-unix_stream_read_generic-unless-there-was-an-error.patch
@@ -130,6 +133,7 @@ linux (4.4.1-1~exp1) experimental; urgency=medium
     CVE-2016-2069 [71b3c126e61177eb693423f2e18a1914205b165e,
                    4eaffdd5a5fe6ff9f95e1ab4de1ac904d5e0fa8b]
     CVE-2016-0728 [23567fd052a9abb6d67fe8e7a9ccdd9800a540f2]
+    CVE-2013-4312 [712f4aad406bb1ed67f3f98d04c044191f0ff593]
 
   [ Ricardo Salveti ]
   * Extending ARM64 support:
