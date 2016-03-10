@@ -108,3 +108,4 @@ bugfix/x86/x86-efi-bgrt-replace-early_memremap-with-memremap.patch
 # stable updates
 bugfix/all/stable-4.4.3.patch
 bugfix/all/stable-4.4.4.patch
+bugfix/all/stable-4.4.5.patch

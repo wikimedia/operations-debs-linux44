@@ -1,3 +1,10 @@
+linux (4.4.2-3+wmf2) jessie-wikimedia; urgency=medium
+
+  * Update to 4.4.5:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.5
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 10 Mar 2016 09:08:54 +0100
+
 linux (4.4.2-3+wmf1) jessie-wikimedia; urgency=medium
 
   * Backport for jessie:
