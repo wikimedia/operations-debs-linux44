@@ -4,6 +4,15 @@ linux (4.4.2-3+wmf2) jessie-wikimedia; urgency=medium
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.5
   * Update to 4.4.6:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.6
+  * Update to 4.4.6:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.7
+    - CVE-2016-2186 [9c6ba456711687b794dcf285856fc14e2c76074f]
+    - CVE-2016-2188 [4ec0ef3a82125efc36173062a50624550a900ae0]
+    - CVE-2016-2185 [950336ba3e4a1ffd2ca60d29f6ef386dd2c7351d]
+    - CVE-2016-2184 [0f886ca12765d20124bd06291c82951fd49a33be,
+                     447d6275f0c21f6cc97a88b3a0c601436a4cdf2a]
+    - CVE-2016-3157 [b7a584598aea7ca73140cb87b40319944dd3393f]
+    - CVE-2016-3138 [8835ba4a39cf53f705417b3b3a94eb067673f2c9]
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 10 Mar 2016 09:08:54 +0100
 
