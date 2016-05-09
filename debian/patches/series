@@ -76,7 +76,6 @@ features/arm/arm-orion5x-clean-up-mach-.h-headers.patch
 features/arm/arm-orion5x-multiplatform-support.patch
 
 # Miscellaneous bug fixes
-bugfix/all/misc-bmp085-Enable-building-as-a-module.patch
 bugfix/all/kbuild-use-nostdinc-in-compile-tests.patch
 bugfix/all/disable-some-marvell-phys.patch
 bugfix/all/rtsx_usb_ms-use-msleep_interruptible-in-polling-loop.patch
@@ -111,3 +110,4 @@ bugfix/all/stable-4.4.5.patch
 bugfix/all/stable-4.4.6.patch
 bugfix/all/stable-4.4.7.patch
 bugfix/all/stable-4.4.8.patch
+bugfix/all/stable-4.4.9.patch
