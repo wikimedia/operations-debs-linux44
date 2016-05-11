@@ -111,3 +111,4 @@ bugfix/all/stable-4.4.6.patch
 bugfix/all/stable-4.4.7.patch
 bugfix/all/stable-4.4.8.patch
 bugfix/all/stable-4.4.9.patch
+bugfix/all/CVE-2016-4557.patch
