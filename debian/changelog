@@ -1,3 +1,11 @@
+linux (4.4.2-3+wmf3) jessie-wikimedia; urgency=medium
+
+  * Update to 4.4.10:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.10
+    - CVE-2016-4581 [5ec0811d30378ae104f250bfc9b3640242d81e3f]
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 12 May 2016 16:10:22 +0200
+
 linux (4.4.2-3+wmf2) jessie-wikimedia; urgency=medium
 
   * Update to 4.4.5:
