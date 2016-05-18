@@ -24,6 +24,7 @@ linux (4.4.2-3+wmf2) jessie-wikimedia; urgency=medium
   * Update to 4.4.8:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.8
     - CVE-2016-3156 [fbd40ea0180a2d328c5adc61414dc8bab9335ce2]
+    - CVE-2016-4805 [1f461dcdd296eecedaffffc6bae2bfa90bd7eb89]
     Remove media-usbvision-fix-crash-on-detecting-device-with-i.patch
     which is merged in 4.4.8
   * Update to 4.4.9:
