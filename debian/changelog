@@ -3,6 +3,14 @@ linux (4.4.2-3+wmf3) jessie-wikimedia; urgency=medium
   * Update to 4.4.10:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.10
     - CVE-2016-4581 [5ec0811d30378ae104f250bfc9b3640242d81e3f]
+  * Update to 4.4.11:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.11
+    - CVE-2016-4485 [b8670c09f37bdf2847cc44f36511a53afc6161fd]
+    - CVE-2016-4486 [5f8e44741f9f216e33736ea4ec65ca9ac03036e6]
+    - CVE-2016-4557 [8358b02bf67d3a5d8a825070e1aa73f25fb2e4c7]
+    - CVE-2016-4558 [92117d8443bc5afacc8d5ba82e541946310f106e]
+    - CVE-2016-2117 [f43bfaeddc79effbf3d0fcb53ca477cca66f3db8]
+    Remove CVE-2016-4557.patch, now part of 4.4.11
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 12 May 2016 16:10:22 +0200
 
@@ -25,6 +33,7 @@ linux (4.4.2-3+wmf2) jessie-wikimedia; urgency=medium
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.8
     - CVE-2016-3156 [fbd40ea0180a2d328c5adc61414dc8bab9335ce2]
     - CVE-2016-4805 [1f461dcdd296eecedaffffc6bae2bfa90bd7eb89]
+    - CVE-2016-3951 [1666984c8625b3db19a9abc298931d35ab7bc64b]
     Remove media-usbvision-fix-crash-on-detecting-device-with-i.patch
     which is merged in 4.4.8
   * Update to 4.4.9:
