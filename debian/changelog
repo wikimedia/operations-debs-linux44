@@ -39,6 +39,7 @@ linux (4.4.2-3+wmf2) jessie-wikimedia; urgency=medium
     - CVE-2016-3156 [fbd40ea0180a2d328c5adc61414dc8bab9335ce2]
     - CVE-2016-4805 [1f461dcdd296eecedaffffc6bae2bfa90bd7eb89]
     - CVE-2016-3951 [1666984c8625b3db19a9abc298931d35ab7bc64b]
+    - CVE-2015-7833 [588afcc1c0e45358159090d95bf7b246fb67565f]
     Remove media-usbvision-fix-crash-on-detecting-device-with-i.patch
     which is merged in 4.4.8
   * Update to 4.4.9:
@@ -507,7 +508,7 @@ linux (4.3.5-1) unstable; urgency=medium
   * fuse: break infinite loop in fuse_fill_write_pages() (CVE-2015-8785)
   * SCSI: fix crashes in sd and sr runtime PM (Closes: #801925)
   * rt2x00: fix monitor mode regression (regression in 4.2)
-  * pipe: limit the per-user amount of pages allocated in pipes (CVE-2013-4312)
+  * pipe: limit the per-user amount of pages allocated in pipes (CVE-2016-2847)
   * [powerpc*] Enable CRYPTO_DEV_VMX and enable CRYPTO_DEV_VMX_ENCRYPT as
     module (Closes: #813640)
   * debian/copyright: Add licence information for drivers/crypto/vmx/*.pl
