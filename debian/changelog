@@ -16,6 +16,15 @@ linux (4.4.2-3+wmf3) jessie-wikimedia; urgency=medium
   * Update to 4.4.12:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.12
     - CVE-2016-3713 [9842df62004f366b9fed2423e24df10542ee0dc5]
+  * Update to 4.4.13:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.13
+    - CVE-2016-2847 [759c01142a5d0f364a462346168a56de28a80f52]
+    * Back out 8edc7f04694d0fd243425e65299ee6ec10259b4f, this
+      change is irrelavant to us and clashes with the Debian-
+      specific kernelvariables.patch patch. It could be fixed up,
+      but there's really no point.
+    * Drop pipe-limit-the-per-user-amount-of-pages-allocated-in.patch,
+      merged in 4.4.13
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 12 May 2016 16:10:22 +0200
 
