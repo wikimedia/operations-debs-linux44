@@ -38,6 +38,8 @@ linux (4.4.2-3+wmf3) jessie-wikimedia; urgency=medium
                      7ed2abddd20cf8f6bd27f65bd218f26fa5bf7f44,
                      13631bfc604161a9d69cd68991dff8603edd66f9,
                      b7eba0f3515fca3296b8881d583f7c1042f5226]
+  * Update to 4.4.15:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.15
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 12 May 2016 16:10:22 +0200
 
@@ -218,6 +220,7 @@ linux (4.4.1-1~exp1) experimental; urgency=medium
                    4eaffdd5a5fe6ff9f95e1ab4de1ac904d5e0fa8b]
     CVE-2016-0728 [23567fd052a9abb6d67fe8e7a9ccdd9800a540f2]
     CVE-2013-4312 [712f4aad406bb1ed67f3f98d04c044191f0ff593]
+    CVE-2016-0728 [23567fd052a9abb6d67fe8e7a9ccdd9800a540f2]
 
   [ Ricardo Salveti ]
   * Extending ARM64 support:
