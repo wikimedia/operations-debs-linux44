@@ -1,3 +1,9 @@
+linux (4.4.2-3+wmf5) jessie-wikimedia; urgency=medium
+
+  * Bump the kernel ABI to 2 (caused by netfilter changes)
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 01 Sep 2016 13:31:39 +0200
+
 linux (4.4.2-3+wmf4) jessie-wikimedia; urgency=medium
 
   * Update to 4.4.19:
