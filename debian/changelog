@@ -1,3 +1,11 @@
+linux (4.4.2-3+wmf6) jessie-wikimedia; urgency=medium
+
+  * Update to 4.4.20:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.20
+    - CVE-2016-6480 [fa00c437eef8dc2e7b25f8cd868cfa405fcc2bb3]
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Fri, 09 Sep 2016 15:14:37 +0200
+
 linux (4.4.2-3+wmf5) jessie-wikimedia; urgency=medium
 
   * Bump the kernel ABI to 2 (caused by netfilter changes)
