@@ -85,6 +85,7 @@ linux (4.4.2-3+wmf3) jessie-wikimedia; urgency=medium
   * Update to 4.4.18:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.18
    - CVE-2016-5696 [75ff39ccc1bd5d3c455b6822ab09e533c551f758]
+   - CVE-2016-3672 [8b8addf891de8a00e4d39fc32f93f7c5eb8feceb]
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 28 Jul 2016 10:03:12 +0200
 
