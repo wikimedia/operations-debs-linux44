@@ -82,6 +82,7 @@ linux (4.4.2-3+wmf3) jessie-wikimedia; urgency=medium
     - CVE-2016-4470 [38327424b40bcebe2de92d07312c89360ac9229a]
     - CVE-2016-4794 [4f996e234dad488e5d9ba0858bc1bae12eff82c3,
                      6710e594f71ccaad8101bc64321152af7cd9ea28]
+    - CVE-2016-4470 [38327424b40bcebe2de92d07312c89360ac9229a]
   * Update to 4.4.17:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.17
    - CVE-2016-5400 [aa93d1fee85c890a34f2510a310e55ee76a27848]
@@ -118,6 +119,7 @@ linux (4.4.2-3+wmf2) jessie-wikimedia; urgency=medium
     - CVE-2016-4805 [1f461dcdd296eecedaffffc6bae2bfa90bd7eb89]
     - CVE-2016-3951 [1666984c8625b3db19a9abc298931d35ab7bc64b]
     - CVE-2015-7833 [588afcc1c0e45358159090d95bf7b246fb67565f]
+    - CVE-2016-7117 [34b88a68f26a75e4fded796f1a49c40f82234b7d]
     Remove media-usbvision-fix-crash-on-detecting-device-with-i.patch
     which is merged in 4.4.8
   * Update to 4.4.9:
