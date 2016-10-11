@@ -14,6 +14,9 @@ linux (4.4.2-3+wmf6) jessie-wikimedia; urgency=medium
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.23
     - Drop 3da2a4cd6e909dd, which is only needed for recent GGC
       releases and clashes with Debian-specific patches
+    - CVE-2016-6828 [bb1fceca22492109be12640d49f5ea5a544c6bb4]
+  * Update to 4.4.24:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.24
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 04 Oct 2016 13:02:55 +0200
 
