@@ -17,8 +17,10 @@ linux (4.4.2-3+wmf6) jessie-wikimedia; urgency=medium
     - CVE-2016-6828 [bb1fceca22492109be12640d49f5ea5a544c6bb4]
   * Update to 4.4.24:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.24
+  * Update to 4.4.25:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.25
 
- -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 04 Oct 2016 13:02:55 +0200
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 17 Oct 2016 10:00:33 +0200
 
 linux (4.4.2-3+wmf5) jessie-wikimedia; urgency=medium
 
