@@ -19,8 +19,10 @@ linux (4.4.2-3+wmf6) jessie-wikimedia; urgency=medium
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.24
   * Update to 4.4.25:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.25
+  * Add patch by Vladis Dronov to address CVE-2016-7042 (not yet
+    merged upstream)
 
- -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 17 Oct 2016 10:00:33 +0200
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 18 Oct 2016 21:33:33 +0200
 
 linux (4.4.2-3+wmf5) jessie-wikimedia; urgency=medium
 
