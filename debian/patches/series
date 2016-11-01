@@ -130,3 +130,5 @@ bugfix/all/CVE-2016-7042.patch
 bugfix/all/stable-4.4.26.patch
 bugfix/all/stable-4.4.27.patch
 bugfix/all/stable-4.4.28.patch
+bugfix/all/stable-4.4.29.patch
+bugfix/all/stable-4.4.30.patch
