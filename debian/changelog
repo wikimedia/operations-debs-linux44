@@ -246,7 +246,15 @@ linux (4.4.2-1) unstable; urgency=medium
     - CVE-2016-2085 [613317bd212c585c20796c10afe5daaa95d4b0a1]
     - CVE-2016-0723 [5c17c861a357e9458001f021a7afa7aab9937439]
     - CVE-2015-7566 [cb3232138e37129e88240a98a1d2aba2187ff57c]
-
+    - CVE-2015-8970 [dd504589577d8e8e70f51f997ad487a4cb6c026f,
+                     c840ac6af3f8713a71b4d2363419145760bd6044,
+                     a383292c86663bbc31ac62cc0c04fc77504636a6,
+                     37766586c965d63758ad542325a96d5384f4a8c9,
+                     a0fa2d037129a9849918a92d91b79ed6c7bd2818,
+                     a5596d6332787fd383b3b5427b41f94254430827,
+                     6de62f15b581f920ade22d758f4c338311c2f0d4,
+                     a1383cd86a062fc798899ab20f0ec2116cce39cb,
+                     6e8d8ecf438792ecf7a3207488fb4eebc4edb040]
   [ Ben Hutchings ]
   * Set ABI to 1
   * iw_cxgb3: Fix incorrectly returning error on success (CVE-2015-8812)
