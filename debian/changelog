@@ -1,5 +1,6 @@
 linux (4.4.2-3+wmf7) jessie-wikimedia; urgency=medium
 
+  * Bump the kernel ABI to 3 (caused by posix ACL changes in 4.4.29)
   * Update to 4.4.26:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.26
     - CVE-2016-5195 [1294d355881cc5c3421d24fee512f16974addb6c]
@@ -17,7 +18,7 @@ linux (4.4.2-3+wmf7) jessie-wikimedia; urgency=medium
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.30
     - CVE-2016-9178 [1c109fabbd51863475cd12ac206bdd249aee35af]
 
- -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 03 Nov 2016 13:25:30 +0200
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 04 Nov 2016 10:02:03 +0200
 
 linux (4.4.2-3+wmf6) jessie-wikimedia; urgency=medium
 
