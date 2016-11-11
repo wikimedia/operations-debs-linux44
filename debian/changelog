@@ -1,3 +1,19 @@
+linux (4.4.2-3+wmf8) jessie-wikimedia; urgency=medium
+
+  * Update to 4.4.31:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.31
+    - CVE-2016-7042 [03dab869b7b239c4e013ec82aea22e181e441cfc]
+      (drop previously locally applied CVE-2016-7042.patch)
+    - CVE-2016-8630 [d9092f52d7e61dd1557f2db2400ddb430e85937e]
+    - CVE-2016-8633 [667121ace9dbafb368618dbabcf07901c962ddac]
+    - CVE-2016-9178 [different fix upstream, in stable as 
+                     dc1555e670c373bfa4ca2e1e2f839d5fe2b4501a]
+    - Drop 1d79b67c4a8a98247407dc245ba7cad2692da3c2, which is
+      only needed for recent GGC releases and clashes with
+      Debian-specific patches
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Fri, 11 Nov 2016 15:57:32 +0100
+
 linux (4.4.2-3+wmf7) jessie-wikimedia; urgency=medium
 
   * Bump the kernel ABI to 3 (caused by posix ACL changes in 4.4.29)
