@@ -11,8 +11,11 @@ linux (4.4.2-3+wmf8) jessie-wikimedia; urgency=medium
     - Drop 1d79b67c4a8a98247407dc245ba7cad2692da3c2, which is
       only needed for recent GGC releases and clashes with
       Debian-specific patches
+  * Update to 4.4.32:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.31
+    - CVE-2016-7039 [fcd91dd449867c6bfe56a81cabba76b829fd05cd]
 
- -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Fri, 11 Nov 2016 15:57:32 +0100
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 15 Nov 2016 14:42:40 +0100
 
 linux (4.4.2-3+wmf7) jessie-wikimedia; urgency=medium
 
