@@ -87,6 +87,7 @@ linux (4.4.2-3+wmf3) jessie-wikimedia; urgency=medium
   * Update to 4.4.10:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.10
     - CVE-2016-4581 [5ec0811d30378ae104f250bfc9b3640242d81e3f]
+    - CVE-2016-7916 [8148a73c9901a8794a50f950083c00ccf97d43b3]
   * Update to 4.4.11:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.11
     - CVE-2016-4485 [b8670c09f37bdf2847cc44f36511a53afc6161fd]
