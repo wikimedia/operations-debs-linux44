@@ -49,6 +49,7 @@ linux (4.4.2-3+wmf6) jessie-wikimedia; urgency=medium
     - CVE-2016-0758 [23c8a812dc3c621009e4f0e5342aa4e2ede1ceaa]
     - CVE-2016-5244 [4116def2337991b39919f3b448326e21c40e0dbb]
     - CVE-2016-5243 [5d2be1422e02ccd697ccfcd45c85b4a26e6178e2]
+    - CVE-2016-7915 [50220dead1650609206efe91f0cc116132d59b3f]
   * Update to 4.4.22:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.22
   * Update to 4.4.23:
@@ -143,10 +144,12 @@ linux (4.4.2-3+wmf3) jessie-wikimedia; urgency=medium
    - CVE-2016-4578 [9a47e9cff994f37f7f0dbd9ae23740d0f64f9fe6,
                     e4ec8cc8039a7063e24204299b462bd1383184a5]
    - CVE-2016-4569 [cec8f96e49d9be372fdb0c3836dcf31ec71e457e]
+   - CVE-2016-7911 [8ba8682107ee2ca3347354e018865d8e1967c5f4]
   * Update to 4.4.18:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.18
    - CVE-2016-5696 [75ff39ccc1bd5d3c455b6822ab09e533c551f758]
    - CVE-2016-3672 [8b8addf891de8a00e4d39fc32f93f7c5eb8feceb]
+   - CVE-2016-7910 [77da160530dd1dc94f6ae15a981f24e5f0021e84]
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 28 Jul 2016 10:03:12 +0200
 
@@ -186,6 +189,8 @@ linux (4.4.2-3+wmf2) jessie-wikimedia; urgency=medium
     - CVE-2016-4565 [e6bd18f57aad1a2d1ef40e646d03ed0f2515c9e3]
     - CVE-2016-4568 [2c1f6951a8a82e6de0d82b1158b5e493fc6c54ab]
     - CVE-2016-3961 [103f6112f253017d7062cd74d17f4a514ed4485c]
+    - CVE-2016-7914 [8d4a2ec1e0b41b0cf9a0c5cd4511da7f8e4f3de2]
+    - CVE-2016-7912 [38740a5b87d53ceb89eb2c970150f6e94e00373a]
     Remove misc-bmp085-Enable-building-as-a-module.patch which is
     merged in 4.4.9
   * Cherrypick 8358b02bf67d3a5d8a825070e1aa73f25fb2e4c7 to address
