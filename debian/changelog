@@ -14,6 +14,7 @@ linux (4.4.2-3+wmf8) jessie-wikimedia; urgency=medium
   * Update to 4.4.32:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.31
     - CVE-2016-7039 [fcd91dd449867c6bfe56a81cabba76b829fd05cd]
+    - CVE-2016-9555 [bf911e985d6bbaa328c20c3e05f4eb03de11fdd6]
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 15 Nov 2016 14:42:40 +0100
 
@@ -35,7 +36,7 @@ linux (4.4.2-3+wmf7) jessie-wikimedia; urgency=medium
     - CVE-2016-8666 [fac8e0f579695a3ecbc4d3cac369139d7f819971]
   * Update to 4.4.30:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.30
-    - CVE-2016-9178 [1c109fabbd51863475cd12ac206bdd249aee35af]
+    - CVE-2016-9644 [1c109fabbd51863475cd12ac206bdd249aee35af]
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 04 Nov 2016 10:02:03 +0200
 
