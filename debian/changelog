@@ -126,6 +126,7 @@ linux (4.4.2-3+wmf3) jessie-wikimedia; urgency=medium
                      7ed2abddd20cf8f6bd27f65bd218f26fa5bf7f44,
                      13631bfc604161a9d69cd68991dff8603edd66f9,
                      b7eba0f3515fca3296b8881d583f7c1042f5226]
+    - CVE-2016-9806 [92964c79b357efd980812c4de5c1fd2ec8bb5520]
   * Update to 4.4.15:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.15
   * Update to 4.4.16:
