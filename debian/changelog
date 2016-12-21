@@ -12,9 +12,14 @@ linux (4.4.2-3+wmf8) jessie-wikimedia; urgency=medium
       only needed for recent GGC releases and clashes with
       Debian-specific patches
   * Update to 4.4.32:
-    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.31
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.32
     - CVE-2016-7039 [fcd91dd449867c6bfe56a81cabba76b829fd05cd]
     - CVE-2016-9555 [bf911e985d6bbaa328c20c3e05f4eb03de11fdd6]
+  * Update to 4.4.33:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.33
+    - Drop fff40ee4d224965d3fc61fa1040d7c77c20d60cc, the Intel
+      DRM changes are irrelevant to us and fixing up the patches
+      isn't really worth the trouble
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 15 Nov 2016 14:42:40 +0100
 
