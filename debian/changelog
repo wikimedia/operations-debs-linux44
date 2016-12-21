@@ -20,6 +20,10 @@ linux (4.4.2-3+wmf8) jessie-wikimedia; urgency=medium
     - Drop fff40ee4d224965d3fc61fa1040d7c77c20d60cc, the Intel
       DRM changes are irrelevant to us and fixing up the patches
       isn't really worth the trouble
+  * Update to 4.4.34:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.34
+    - CVE-2016-8645 [ac6e780070e30e4c35bd395acfe9191e6268bdd3]
+    - CVE-2015-8964 [dd42bf1197144ede075a9d4793123f7689e164bc]
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 15 Nov 2016 14:42:40 +0100
 
