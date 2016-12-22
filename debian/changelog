@@ -42,7 +42,7 @@ linux (4.4.2-3+wmf8) jessie-wikimedia; urgency=medium
   * Update to 4.4.39:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.39
 
- -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 15 Nov 2016 14:42:40 +0100
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 22 Dec 2016 11:51:45 +0100
 
 linux (4.4.2-3+wmf7) jessie-wikimedia; urgency=medium
 
