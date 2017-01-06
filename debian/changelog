@@ -1,3 +1,10 @@
+linux (4.4.2-3+wmf9) jessie-wikimedia; urgency=medium
+
+  * Update to 4.4.40:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.40
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Fri, 06 Jan 2017 17:03:01 +0100
+
 linux (4.4.2-3+wmf8) jessie-wikimedia; urgency=medium
 
   * Update to 4.4.31:
