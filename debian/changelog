@@ -6,8 +6,10 @@ linux (4.4.2-3+wmf9) jessie-wikimedia; urgency=medium
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.41
     - CVE-2016-10088 [128394eff343fc6d2f32172f03e24829539c5835]
     - CVE-2016-9588  [ef85b67385436ddc1998f45f1d6a210f935b3388]
+  * Update to 4.4.42:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.42
 
- -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Fri, 06 Jan 2017 17:03:01 +0100
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 16 Jan 2017 11:17:27 +0100
 
 linux (4.4.2-3+wmf8) jessie-wikimedia; urgency=medium
 
