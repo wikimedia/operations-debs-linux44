@@ -15,6 +15,7 @@ linux (4.4.2-3+wmf9) jessie-wikimedia; urgency=medium
     - CVE-2017-2584 [129a72a0d3c8e139a04512325384fe5ac119e74d]
     - CVE-2017-2583 [33ab91103b3415e12457e3104f0e4517ce12d0f3]
     - CVE-2017-5549 [146cc8a17a3b4996f6805ee5c080e7101277c410]
+    - CVE-2016-9191 [93362fa47fe98b62e4a34ab408c4a418432e7939]
   * Update to 4.4.45:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.45
     - CVE-2017-5551 [497de07d89c1410d76a15bec2bb41f24a2a89f31] 
