@@ -20,8 +20,10 @@ linux (4.4.2-3+wmf9) jessie-wikimedia; urgency=medium
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.45
     - CVE-2017-5551 [497de07d89c1410d76a15bec2bb41f24a2a89f31]
   * Update to 4.4.46:
-    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.45
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.46
     - CVE-2016-8405 [2dc705a9930b4806250fbf5a76e55266e59389f2]
+  * Update to 4.4.47:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.47
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 16 Jan 2017 11:17:27 +0100
 
