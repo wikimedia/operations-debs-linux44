@@ -116,6 +116,7 @@ linux (4.4.2-3+wmf6) jessie-wikimedia; urgency=medium
     - CVE-2016-6828 [bb1fceca22492109be12640d49f5ea5a544c6bb4]
   * Update to 4.4.24:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.24
+    - CVE-2016-10044 [22f6b4d34fcf039c63a94e7670e0da24f8575a5a]
   * Update to 4.4.25:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.25
   * Add patch by Vladis Dronov to address CVE-2016-7042 (not yet
