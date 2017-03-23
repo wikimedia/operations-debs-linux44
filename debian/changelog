@@ -54,8 +54,10 @@ linux (4.4.2-3+wmf9) jessie-wikimedia; urgency=medium
     - CVE-2017-2636 [82f2341c94d270421f383641b7cd670e474db56b]
   * Update to 4.4.55:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.55
+  * Update to 4.4.56:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.56
 
- -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 16 Jan 2017 11:17:27 +0100
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 23 Mar 2017 11:02:24 +0100
 
 linux (4.4.2-3+wmf8) jessie-wikimedia; urgency=medium
 
