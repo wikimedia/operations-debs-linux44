@@ -89,6 +89,7 @@ linux (4.4.2-3+wmf8) jessie-wikimedia; urgency=medium
     - CVE-2016-8655 [84ac7260236a49c79eede91617700174c2c19b0c]
     - CVE-2016-9576 [a0ac402cfcdc904f9772e1762b3fda112dcc56a0]
     - CVE-2016-9793 [b98b0bc8c431e3ceb4b26b0dfc8db509518fb290]
+    - CVE-2016-10200 [32c231164b762dddefa13af5a0101032c70b50ef]
   * Update to 4.4.39:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.39
     - CVE-2016-10147 [48a992727d82cb7db076fa15d372178743b1f4cd]
