@@ -2,6 +2,7 @@ linux (4.4.2-3+wmf9) jessie-wikimedia; urgency=medium
 
   * Update to 4.4.40:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.40
+    - CVE-2015-8709 [bfedb589252c01fa505ac9f6f2a3d5d68d707ef4]
   * Update to 4.4.41:
     https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.41
     - CVE-2016-10088 [128394eff343fc6d2f32172f03e24829539c5835]
