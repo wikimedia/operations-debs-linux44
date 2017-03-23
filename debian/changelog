@@ -46,6 +46,9 @@ linux (4.4.2-3+wmf9) jessie-wikimedia; urgency=medium
     - CVE-2017-6347 [ca4ef4574f1ee5252e2cd365f8f5d5bafd048f32]
     - CVE-2017-6348 [4c03b862b12f980456f9de92db6d508a4999b788]
     - CVE-2017-6074 [5edabca9d4cff7f1f2b68f0bac55ef99d9798ba4]
+  * Update to 4.4.53:
+    https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.53
+    - CVE-2017-5669 [95e91b831f87ac8e1f8ed50c14d709089b4e01b8]
 
  -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Mon, 16 Jan 2017 11:17:27 +0100
 
